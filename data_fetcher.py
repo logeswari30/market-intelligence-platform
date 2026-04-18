@@ -1,6 +1,6 @@
 import requests
 
-API_KEY = "82b748b717ae4d30b7a39c1865da4d62"
+API_KEY = "API KEY"
 
 def fetch_data(sector):
     url = f"https://newsapi.org/v2/everything?q={sector}&language=en&sortBy=publishedAt&apiKey={API_KEY}"
