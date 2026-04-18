@@ -1,7 +1,7 @@
 import google.generativeai as genai
 
 # ⚠️ Your API Key (temporary use only)
-genai.configure(api_key="AIzaSyBS5YMn6OrczyV72YIisoAIil1tK8eUgVU")
+genai.configure(api_key="api key")
 
 def analyze_data(data):
     try:
